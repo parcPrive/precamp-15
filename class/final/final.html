@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <title>final</title>
+  <link href="./finel.css" rel="stylesheet">
+  <script src="./final.js"></script>
+</head>
+<body>
+  <div class="background">
+    <div class="wrapper">
+      <div class="head">코드캠프 회원가입</div>
+      <div class="check"> 
+        <input class="box" id="email" type="text" placeholder="이메일을 입력해 주세요.">
+        <input class="box" id="name" type="text" placeholder="이름을 입력해 주세요.">
+        <input class="box" id="password1" type="text" placeholder="비밀번호를 입력해 주세요.">
+        <input class="box" id="password2" type="text" placeholder="비밀번호를 다시 입력해 주세요.">
+      </div>
+      <div class="phonebo">
+        <input class="phonebox" id="phone1" type="text" oninput="changeFocus1()" maxlength="3">-
+        <input class="phonebox" id="phone2" type="text" oninput="changeFocus2()" maxlength="4">-
+        <input class="phonebox" id="phone3" type="text" maxlength="4">
+      </div>
+      <div class="btnbox">
+        <div class="numbox">
+          <div id="six">000000</div>
+          <button id="check" class="sixnum">인증번호전송</button>
+        </div>
+        <div class="countbox">
+          <div id="timer">03:00</div>
+          <button id="checkbtn" class="checkbtn">인증완료</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>

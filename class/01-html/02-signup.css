@@ -1,0 +1,15 @@
+.redborder {
+    border: 2px solid red;
+}
+.blueborder{
+    border: 2px solid blue;
+}
+.btn{
+    width: 100px;
+    height: 100px;
+    border: 2px dotted blue;
+}
+.btn hover{
+    background-color: rebe
+    color white;
+}
